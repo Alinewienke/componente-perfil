@@ -1,6 +1,7 @@
 import './card.css'
 
 function Card ({imagem, nome, profissao, perfil}) {
+    console.log(imagem)
     return (
         <div className='card-container'>
             <div>
@@ -17,4 +18,4 @@ function Card ({imagem, nome, profissao, perfil}) {
     )
 }
 
-export default Card
+export default Card 
